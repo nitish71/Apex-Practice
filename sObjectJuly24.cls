@@ -43,6 +43,25 @@ public class sObjectJuly24 {
         insert opp;
     }
     
+    public static void createContactWithAccount(){
+        
+        Account acc = new Account();
+        Contact con = new Contact();
+        
+        acc.Name = 'Account for contcat jult 24';
+        acc.Phone = '2343243342';
+        acc.Active__c = 'Yes';
+        acc.AnnualRevenue = 2121212;
+        insert acc;
+        
+        con.LastName = 'Guptya';
+        con.FirstName = 'Ninja';
+        con.Phone = '798898999';
+        con.Salutation = 'Mr.';
+        con.AccountId = acc.Id;
+        insert con;
+    }
+    
     
     
     
