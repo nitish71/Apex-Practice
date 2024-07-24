@@ -24,6 +24,7 @@ public class RectangleJuly24 {
 }
 
 /*
+//This is to call the methods.
 RectangleJuly24 myReactangle = new RectangleJuly24();
 myReactangle.area();
 myReactangle.perimeter();
