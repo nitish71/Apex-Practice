@@ -8,7 +8,7 @@ public class BonusCalculatorJuly24 {
             decimal netSalary = salary+bonusAmount;
             system.debug('your net salary will be '+ netSalary);
         }else{
-            decimal bonusAmount = ((salary*20)/100);            
+            decimal bonusAmount = ((salary*10)/100);            
             system.debug('Your bonus amount will be '+ bonusAmount);
             decimal netSalary = salary+bonusAmount;
             system.debug('your net salary will be '+ netSalary);
