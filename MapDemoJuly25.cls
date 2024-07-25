@@ -43,6 +43,8 @@ public class MapDemoJuly25 {
         Map<ID, Account> accMap = new Map<ID, Account>(accList);
         
         system.debug('Map contains '+ accMap);
+        system.debug('Map keys are '+ accMap.keyset());
+        system.debug('Map values are '+ accMap.values());
     }
     
     
