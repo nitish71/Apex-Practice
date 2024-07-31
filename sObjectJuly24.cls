@@ -48,7 +48,7 @@ public class sObjectJuly24 {
         Account acc = new Account();
         Contact con = new Contact();
         
-        acc.Name = 'Account for contcat jult 24';
+        acc.Name = 'Account to contcat july 24';
         acc.Phone = '2343243342';
         acc.Active__c = 'Yes';
         acc.AnnualRevenue = 2121212;
