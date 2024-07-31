@@ -11,7 +11,7 @@ public class IterateOnAccountAndCreateSet {
         accList = [select id, name , phone from Account limit 5];
         
         if(accList.isEmpty()){
-            system.debug('Data is not available to iterate.');
+            system.debug('List data is not available to iterate.');
         }
         else{
             
