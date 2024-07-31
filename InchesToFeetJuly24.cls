@@ -4,7 +4,7 @@ public class InchesToFeetJuly24 {
         
         if(inches<12){
             integer feet = 0;
-            system.debug('entered icnhes is lees than a feet');
+            system.debug('entered icnhes is less than a feet');
         }else{
             
             integer feet = inches/12;
