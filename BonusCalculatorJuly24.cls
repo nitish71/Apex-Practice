@@ -4,7 +4,7 @@ public class BonusCalculatorJuly24 {
         
         if(salary>=20000 && department  == 'Sales'){
             decimal bonusAmount = ((salary*20)/100);
-            system.debug('your bonus will  be '+bonusAmount);
+            system.debug('your bonus amount will  be '+bonusAmount);
             decimal netSalary = salary+bonusAmount;
             system.debug('your net salary will be '+ netSalary);
         }else{
